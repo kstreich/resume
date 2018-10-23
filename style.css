@@ -2,6 +2,19 @@ header {
   background-color: rgb(140, 140, 211);
 }
 
- h1{
+ main h1{
   color: peru;
+}
+
+#summary ul{
+  color: paleturquoise;
+}
+
+#career-objective p{
+  text-align: center;
+}
+
+/* : indicates a psudoclass*/
+main li:first-of-type{
+  text-emphasis: filled;
 }
